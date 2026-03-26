@@ -1,0 +1,26 @@
+# PKGBUILD install script — runs hooks after package install/upgrade/remove
+
+post_install() {
+    echo "  → Updating icon cache..."
+    gtk-update-icon-cache -f -t /usr/share/icons/hicolor 2>/dev/null || true
+    update-desktop-database /usr/share/applications 2>/dev/null || true
+    echo ""
+    echo "  ✅ XFCE Productivity Todo installed!"
+    echo "  Launch: todo"
+    echo "  Or search 'Todo' in your app menu."
+    echo ""
+}
+
+post_upgrade() {
+    post_install
+}
+
+pre_remove() {
+    echo "  → Removing XFCE Productivity Todo..."
+}
+
+post_remove() {
+    gtk-update-icon-cache -f -t /usr/share/icons/hicolor 2>/dev/null || true
+    update-desktop-database /usr/share/applications 2>/dev/null || true
+    echo "  ✓ Uninstalled."
+}
