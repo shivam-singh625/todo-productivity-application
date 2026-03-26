@@ -1,7 +1,6 @@
 <div align="center">
 
 # ✅ XFCE Productivity Todo
-
 **A powerful, lightweight productivity app for Linux**  
 *Built with Python + GTK4 — zero Electron, zero bloat*
 
@@ -86,7 +85,7 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/xfce-productivity-todo.git
+git clone https://github.com/shivam-singh625/xfce-productivity-todo.git
 cd xfce-productivity-todo
 
 # 2. Run the installer
@@ -99,7 +98,7 @@ todo
 ### Ubuntu / Debian / Linux Mint
 
 ```bash
-git clone https://github.com/yourusername/xfce-productivity-todo.git
+git clone https://github.com/shivam-singh625/xfce-productivity-todo.git
 cd xfce-productivity-todo
 bash install_ubuntu.sh
 todo
@@ -108,12 +107,17 @@ todo
 ### Fedora / RHEL
 
 ```bash
-git clone https://github.com/yourusername/xfce-productivity-todo.git
+git clone https://github.com/shivam-singh625/xfce-productivity-todo.git
 cd xfce-productivity-todo
 bash install_fedora.sh
 todo
 ```
-
+### Windows(currently not avilable)
+```bash
+<div align="center">
+Windows version coming soon
+</div>
+```
 > 📖 **Full installation guide with screenshots:** [INSTALL.md](docs/INSTALL.md)
 
 ---
@@ -228,5 +232,6 @@ MIT License — see [LICENSE](LICENSE)
 ---
 
 <div align="center">
-Made with ❤️ for Linux users
+Made with ❤️ for Linux users | 
+Windows version coming soon
 </div>
