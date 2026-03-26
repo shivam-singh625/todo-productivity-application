@@ -85,8 +85,8 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/shivam-singh625/xfce-productivity-todo.git
-cd xfce-productivity-todo
+git clone https://github.com/shivam-singh625/todo-productivity-application.git
+cd todo-productivity-application
 
 # 2. Run the installer
 bash install.sh
@@ -98,8 +98,8 @@ todo
 ### Ubuntu / Debian / Linux Mint
 
 ```bash
-git clone https://github.com/shivam-singh625/xfce-productivity-todo.git
-cd xfce-productivity-todo
+git clone https://github.com/shivam-singh625/todo-productivity-application.git
+cd todo-productivity-application
 bash install_ubuntu.sh
 todo
 ```
@@ -107,8 +107,8 @@ todo
 ### Fedora / RHEL
 
 ```bash
-git clone https://github.com/shivam-singh625/xfce-productivity-todo.git
-cd xfce-productivity-todo
+git clone https://github.com/shivam-singh625/todo-productivity-application.git
+cd todo-productivity-application
 bash install_fedora.sh
 todo
 ```
@@ -142,7 +142,7 @@ Windows version coming soon
 ## 🗂 Project Structure
 
 ```
-xfce-productivity-todo/
+todo-productivity-application/
 ├── main.py                    # App entry point
 ├── run.sh                     # Launch script
 ├── install.sh                 # Arch Linux installer
@@ -200,7 +200,7 @@ All data is stored locally — no cloud, no accounts, no tracking.
 
 ```bash
 # Run the built-in diagnostic tool
-bash ~/.local/share/xfce-productivity-todo/debug.sh
+bash ~/.local/share/todo-productivity-application/debug.sh
 ```
 
 Common fixes:
@@ -218,7 +218,7 @@ Common fixes:
 ## 🗑 Uninstall
 
 ```bash
-bash ~/.local/share/xfce-productivity-todo/uninstall.sh
+bash ~/.local/share/todo-productivity-application/uninstall.sh
 ```
 
 Your data (`~/.local/share/xfce-todo/tasks.db`) is **never deleted** automatically.
