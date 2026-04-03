@@ -85,7 +85,7 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/shivam-singh625/todo-productivity-application.git
+git clone https://github.com/mr-RABBIT625/todo-productivity-application.git
 cd todo-productivity-application
 
 # 2. Run the installer
@@ -98,7 +98,7 @@ todo
 ### Ubuntu / Debian / Linux Mint
 
 ```bash
-git clone https://github.com/shivam-singh625/todo-productivity-application.git
+git clone https://github.com/mr-RABBIT625/todo-productivity-application.git
 cd todo-productivity-application
 bash install_ubuntu.sh
 todo
@@ -107,7 +107,7 @@ todo
 ### Fedora / RHEL
 
 ```bash
-git clone https://github.com/shivam-singh625/todo-productivity-application.git
+git clone https://github.com/mr-RABBIT625/todo-productivity-application.git
 cd todo-productivity-application
 bash install_fedora.sh
 todo
